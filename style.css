@@ -64,7 +64,32 @@ body {
 .section {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 32px 24px;
+  padding: 80px 24px;
+}
+
+.section h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section .animate__animated.animate__flash {
+  font-size: 56px;
+  --animate-duration: 1s;
+  text-align: center;
+}
+
+.section .introTitle {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section .introBiography {
+  padding-top: 30px;
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .section h2 {
